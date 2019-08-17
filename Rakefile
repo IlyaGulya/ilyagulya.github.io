@@ -6,7 +6,7 @@ require "jekyll"
 require "bourbon"
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "ilyagulya/ilyagulya.github.io"
+GITHUB_REPONAME = "IlyaGulya/ilyagulya.github.io"
 GITHUB_REPO_BRANCH = "master"
 
 SOURCE = "source/"
