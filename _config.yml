@@ -1,0 +1,54 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Ilya Gulya
+description: "Personal page"
+keywords: "Android, Developer, android, kotlin"
+url: https://gulya.me/
+baseurl: "/end2end"
+
+google_analytics: UA-38764676-3
+repo: http://github.com/ilyagulya/ilyagulya.github.io
+disqus_shortname: "ilyagulya"
+disqus_site_shortname: "ilyagulya"
+
+# Author settings
+author:
+  name: Ilya Gulya
+  job: Android Developer
+  bio: "Android Developer 📱. Food advocato 🥑. K-Pop/J-Pop music fanatic 🎧. Cheesecake lover 🍰. Bicycle geek 🚴."
+  thumb: /images/author.jpg
+  email: ilyagulya@gmail.com
+  url: https://gulya.me.me/
+  github: https://github.com/ilyagulya
+  twitter: https://twitter.com/ilyagulya
+  facebook: https://facebook.com/ilyagulya
+  linkedin: https://linkedin.com/in/ilyagulya
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: icons
+    title: Icons
+#  - slug: blog
+#    title: Blog
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]

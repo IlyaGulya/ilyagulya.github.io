@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="container">
+      <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot" width="256" height="256">
+      <h3>I'm <strong itemprop="name">{{ site.author.name }}</strong>, a <em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
+      <h3>{{ site.author.bio }}</h3>
+      <a href="https://docs.google.com/document/d/1GxxC3-eP8-AnV5z1EAdMx9-_U_elY-W40swaBAJRmPE" class="button button-ghost" title="My resume">My Resume (RU)</a>
+<!--      <a href="{{ '/resume' | prepend: site.baseurl }}" class="button button-ghost" title="My resume">My Resume (EN)</a>-->
+      {% comment %}
+      <a href="{{ '/about' | prepend: site.baseurl }}" class="button button-ghost" title="about">about</a>
+      <a href="{{ '/blog' | prepend: site.baseurl }}" class="button button-ghost" title="blog">blog</a>
+      {% endcomment %}
+
+      {% include social.html %}
+    </div>
+  </div>
+</section>
