@@ -22,7 +22,7 @@ title: Ilya Gulya
 description: "Personal page"
 keywords: "Android, Developer, android, kotlin"
 url: https://gulya.me/
-baseurl: "/"
+baseurl: ""
 
 google_analytics: UA-38764676-3
 repo: http://github.com/ilyagulya/ilyagulya.github.io
