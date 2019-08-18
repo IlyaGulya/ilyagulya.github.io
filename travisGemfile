@@ -9,6 +9,6 @@ gem "jekyll-compose"
 gem "kramdown"
 
 gem "github-pages", group: :jekyll_plugins
-gem "bourbon", group: :jekyll_plugins
+gem "bourbon", "~>4.3", group: :jekyll_plugins
 gem "jekyll-feed", group: :jekyll_plugins
 gem "jekyll-paginate", group: :jekyll_plugins
