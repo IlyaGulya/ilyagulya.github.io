@@ -2,7 +2,7 @@
 set -e # halt script on error
 
 cd source/_sass/
-bundle exec bourbon install
+#bourbon install
 cd ../../
 
 bundle exec jekyll build
