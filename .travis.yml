@@ -20,8 +20,8 @@ deploy:
   local_dir: "_site"
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  target_branch: gh-pages
+  target_branch: master
   on:
-    branch: gh-pages
+    branch: master
 notifications:
   email: false
