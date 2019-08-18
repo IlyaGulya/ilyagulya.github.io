@@ -14,8 +14,7 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 branches:
   only:
-    - master
-    - gh-pages
+    - develop
 deploy:
   provider: pages
   local_dir: "_site"
