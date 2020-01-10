@@ -2,3 +2,5 @@ _site
 .sass-cache
 bourbon
 vendor
+_config.yml~
+source/index.html~
