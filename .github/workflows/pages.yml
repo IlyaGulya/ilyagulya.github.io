@@ -34,6 +34,14 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Install dependencies
         run: bundle install
+      - name: Build pages
+        run: |
+          cd source/_sass/
+          bundle exec bourbon install
+          cd ../../
+
+          bundle exec jekyll build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
