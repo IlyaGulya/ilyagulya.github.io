@@ -24,7 +24,7 @@ keywords: "Android, Developer, android, kotlin"
 url: https://gulya.me/
 baseurl: ""
 
-google_analytics: UA-38764676-3
+ga4_measurement_id: G-7VWSVPJDBQ
 repo: http://github.com/ilyagulya/ilyagulya.github.io
 disqus_shortname: "ilyagulya"
 disqus_site_shortname: "ilyagulya"
@@ -33,7 +33,7 @@ disqus_site_shortname: "ilyagulya"
 author:
   name: Ilya Gulya
   job: "Android Developer 📱"
-  bio: "🥑 Food advocato 🥑<br />🎧 K-Pop/J-Pop music fanatic 🎧<br />🍰 Cheesecake lover 🍰<br />🚴 Bicycle geek 🚴"
+  bio: "<br />🎧 K-Pop/J-Pop music fanatic 🎧<br />🧀 Cheese fan 🧀<br />🚴 Bicycle geek 🚴"
   thumb: /images/author.jpg
   email: ilyagulya@gmail.com
   url: https://gulya.me/
