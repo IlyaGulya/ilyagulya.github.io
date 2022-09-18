@@ -5,3 +5,4 @@ vendor
 _config.yml~
 source/index.html~
 .idea
+.jekyll-cache
