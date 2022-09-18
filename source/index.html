@@ -5,11 +5,12 @@ layout: default
 <section class="hero">
   <div class="hero-inner">
     <div class="container">
-      <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot" width="256" height="256">
-      <h3>I'm <strong itemprop="name">{{ site.author.name }}</strong>, an <em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
+      <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot" width="256"
+           height="256">
+      <h3>I'm <strong itemprop="name">{{ site.author.name }}</strong>, an {{ site.author.job }}</h3>
       <h3>{{ site.author.bio }}</h3>
       <a href="http://ru.cv.gulya.me" class="button button-ghost" title="My CV in Russian">CV (RU)</a>
-      <a href="http://en.cv.gulya.me" class="button button-ghost" title="My CV in English">CV (EN)</a><br />
+      <a href="http://en.cv.gulya.me" class="button button-ghost" title="My CV in English">CV (EN)</a><br/>
 
       {% include social.html %}
     </div>
