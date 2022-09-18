@@ -1,15 +1,6 @@
 # Build settings
 permalink: /blog/:year/:title/
 markdown: kramdown
-highlighter: pygments
-plugins: [jekyll-paginate-v2]
-
-pagination:
-  enabled: true
-  per_page: 3
-  permalink: "/page/:num/"
-
-comments: true
 
 source: source
 destination: _site
@@ -26,15 +17,13 @@ baseurl: ""
 
 ga4_measurement_id: G-7VWSVPJDBQ
 repo: http://github.com/ilyagulya/ilyagulya.github.io
-disqus_shortname: "ilyagulya"
-disqus_site_shortname: "ilyagulya"
 
 # Author settings
 author:
   name: Ilya Gulya
   job: "Android Developer 📱"
   bio: "<br />🎧 K-Pop/J-Pop music fanatic 🎧<br />🧀 Cheese fan 🧀<br />🚴 Bicycle geek 🚴"
-  thumb: /images/author.jpg
+  thumb: /images/author.webp
   email: ilyagulya@gmail.com
   url: https://gulya.me/
   github: https://github.com/ilyagulya
@@ -42,13 +31,6 @@ author:
   facebook: https://facebook.com/ilyagulya
   linkedin: https://linkedin.com/in/ilyagulya
 
-# navbar pages
-navbar:
-  - slug: about
-    title: About
-  - slug: icons
-    title: Icons
-#  - slug: blog
-#    title: Blog
+gems: [ bourbon ]
 
-exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
+exclude: [ "config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile" ]
