@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "4.2.2"
-gem "rake", "~>10.5"
+gem "rake", "~>12.3"
 gem "json", "~> 2"
 gem "webrick", "~> 1.7"
 
